@@ -1,17 +1,17 @@
 LIBRARY IEEE;
-USE IEEE.std_logic_1164.all;
+USE IEEE.std_logic_1164.ALL;
 
 ENTITY n_register IS
-	PORT(
-		clk, rst, enable : IN std_logic;
-		d : IN std_logic_vector(15 DOWNTO 0);
-		q : OUT std_logic_vector(15 DOWNTO 0)
+	PORT (
+		clk, rst, enable : IN STD_LOGIC;
+		d : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+		q : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
 	);
 END n_register;
 
 ARCHITECTURE a_register OF n_register IS
 BEGIN
-	PROCESS(clk, rst)
+	PROCESS (clk, rst)
 	BEGIN
 		IF rst = '1' THEN
 			q <= (OTHERS => '0');

@@ -1,0 +1,85 @@
+C:/Users/saadm/Desktop/Computer-Architecture-Project/decoder_2x4.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/saadm/Desktop/Computer-Architecture-Project/decoder_2x4.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Decoder_2x4
+-- Compiling architecture myModel of Decoder_2x4
+
+} {} {}} C:/Users/saadm/Desktop/Computer-Architecture-Project/tristate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/saadm/Desktop/Computer-Architecture-Project/tristate.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity n_tristate
+-- Compiling architecture a_tristate of n_tristate
+
+} {} {}} C:/Users/saadm/Desktop/Computer-Architecture-Project/destinationDecoder.vhd {0 {vcom -work work -2002 -explicit -stats=none {C:\Users\saadm\Desktop\Computer-Architecture-Project\destinationDecoder.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity destination_decoder
+-- Compiling architecture a_destination_decoder of destination_decoder
+** Error: C:\Users\saadm\Desktop\Computer-Architecture-Project\destinationDecoder.vhd(35): near "OTHERS": syntax error
+** Error: C:\Users\saadm\Desktop\Computer-Architecture-Project\destinationDecoder.vhd(36): near "OTHERS": syntax error
+** Error: C:\Users\saadm\Desktop\Computer-Architecture-Project\destinationDecoder.vhd(38): Illegal target for signal assignment.
+** Error: C:\Users\saadm\Desktop\Computer-Architecture-Project\destinationDecoder.vhd(38): (vcom-1136) Unknown identifier "dest_decoder".
+
+** Error: C:\Users\saadm\Desktop\Computer-Architecture-Project\destinationDecoder.vhd(38): (vcom-1136) Unknown identifier "tmp".
+
+** Error: C:\Users\saadm\Desktop\Computer-Architecture-Project\destinationDecoder.vhd(40): near "END": (vcom-1576) expecting ';'.
+
+
+} {8.0 12.0 13.0 14.0 15.0 16.0} {}} C:/Users/saadm/Desktop/Computer-Architecture-Project/decoder_3x8.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/saadm/Desktop/Computer-Architecture-Project/decoder_3x8.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Decoder_3x8
+-- Compiling architecture myModel of Decoder_3x8
+
+} {} {}} C:/Users/saadm/Desktop/Computer-Architecture-Project/SPR_ALU_RAM.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/saadm/Desktop/Computer-Architecture-Project/SPR_ALU_RAM.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SPR_ALU_RAM
+-- Compiling architecture a_SPR_ALU_RAM of SPR_ALU_RAM
+
+} {} {}} C:/Users/saadm/Desktop/Computer-Architecture-Project/register.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/saadm/Desktop/Computer-Architecture-Project/register.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity n_register
+-- Compiling architecture a_register of n_register
+
+} {} {}} C:/Users/saadm/Desktop/Computer-Architecture-Project/memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/saadm/Desktop/Computer-Architecture-Project/memory.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity n_ram
+-- Compiling architecture a_ram of n_ram
+
+} {} {}} C:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity special_register_file
+-- Compiling architecture a_special_register_file of special_register_file
+
+} {} {}} C:/Users/saadm/Desktop/Computer-Architecture-Project/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/saadm/Desktop/Computer-Architecture-Project/ALU.vhd
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity n_alu
+-- Compiling architecture a_alu of n_alu
+
+} {} {}}
