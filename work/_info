@@ -99,9 +99,9 @@ VUf<1jKFzbG^2d]NPFCl0@2
 !s100 YXW2DbdkEe7Lz[4iB<z[53
 R6
 32
-Z23 !s110 1610834198
+Z23 !s110 1610896715
 !i10b 1
-Z24 !s108 1610834198.000000
+Z24 !s108 1610896715.000000
 Z25 !s90 destinationDecoder.vhd|
 Z26 !s107 destinationDecoder.vhd|
 !i113 1
@@ -124,7 +124,7 @@ R26
 !i113 1
 R12
 Egeneral_registers
-Z27 w1610837835
+Z27 w1610896387
 R2
 R3
 R0
@@ -132,13 +132,13 @@ Z28 8generalRegisterFile.vhd
 Z29 FgeneralRegisterFile.vhd
 l0
 L4
-V8hU[3z>eUTJ3SSfXLAz2i0
-!s100 ?WC;XMV[9idNXVn4I@>_E3
+VH[k5Nj=A;>;MKF^IYi>_M3
+!s100 48bOO5>_gVb^WGzWA1KZm2
 R6
 32
-Z30 !s110 1610837840
+Z30 !s110 1610896705
 !i10b 1
-Z31 !s108 1610837840.000000
+Z31 !s108 1610896705.000000
 Z32 !s90 generalRegisterFile.vhd|
 Z33 !s107 generalRegisterFile.vhd|
 !i113 1
@@ -146,11 +146,11 @@ R12
 Aa_general_registers
 R2
 R3
-Z34 DEx4 work 17 general_registers 0 22 8hU[3z>eUTJ3SSfXLAz2i0
-l36
-L15
-VIgVmLRf8GN[U:dYZI`?X<0
-!s100 QHmRNzOI[kbXB;AJh@nD12
+DEx4 work 17 general_registers 0 22 H[k5Nj=A;>;MKF^IYi>_M3
+l35
+L14
+VnUeg`4hG]^@MAe`O>H[?81
+!s100 >6fJ4@kBG2Rhb`=`GRBK41
 R6
 32
 R30
@@ -161,13 +161,13 @@ R33
 !i113 1
 R12
 En_alu
-Z35 w1610824633
-Z36 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z34 w1610824633
+Z35 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R2
 R3
 R0
-Z37 8C:/Users/saadm/Desktop/Computer-Architecture-Project/ALU.vhd
-Z38 FC:/Users/saadm/Desktop/Computer-Architecture-Project/ALU.vhd
+Z36 8C:/Users/saadm/Desktop/Computer-Architecture-Project/ALU.vhd
+Z37 FC:/Users/saadm/Desktop/Computer-Architecture-Project/ALU.vhd
 l0
 L5
 VOU5D@OzkN?PeHRzLE8>Rm1
@@ -177,13 +177,13 @@ R6
 R7
 !i10b 1
 R8
-Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/ALU.vhd|
-Z40 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/ALU.vhd|
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/ALU.vhd|
+Z39 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/ALU.vhd|
 !i113 1
 R11
 R12
 Aa_alu
-R36
+R35
 R2
 R3
 DEx4 work 5 n_alu 0 22 OU5D@OzkN?PeHRzLE8>Rm1
@@ -196,19 +196,19 @@ R6
 R7
 !i10b 1
 R8
+R38
 R39
-R40
 !i113 1
 R11
 R12
 En_ram
+R34
 R35
-R36
 R2
 R3
 R0
-Z41 8C:/Users/saadm/Desktop/Computer-Architecture-Project/memory.vhd
-Z42 FC:/Users/saadm/Desktop/Computer-Architecture-Project/memory.vhd
+Z40 8C:/Users/saadm/Desktop/Computer-Architecture-Project/memory.vhd
+Z41 FC:/Users/saadm/Desktop/Computer-Architecture-Project/memory.vhd
 l0
 L5
 V8@ia1LFP9hhdfz3VX_jVB2
@@ -218,13 +218,13 @@ R6
 R16
 !i10b 1
 R17
-Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/memory.vhd|
-Z44 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/memory.vhd|
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/memory.vhd|
+Z43 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/memory.vhd|
 !i113 1
 R11
 R12
 Aa_ram
-R36
+R35
 R2
 R3
 DEx4 work 5 n_ram 0 22 8@ia1LFP9hhdfz3VX_jVB2
@@ -237,18 +237,18 @@ R6
 R16
 !i10b 1
 R17
+R42
 R43
-R44
 !i113 1
 R11
 R12
 En_register
-Z45 w1610826571
+Z44 w1610826571
 R2
 R3
 R0
-Z46 8C:/Users/saadm/Desktop/Computer-Architecture-Project/register.vhd
-Z47 FC:/Users/saadm/Desktop/Computer-Architecture-Project/register.vhd
+Z45 8C:/Users/saadm/Desktop/Computer-Architecture-Project/register.vhd
+Z46 FC:/Users/saadm/Desktop/Computer-Architecture-Project/register.vhd
 l0
 L4
 VVzbOAD8P8kd]B@g90OZ^M2
@@ -258,8 +258,8 @@ R6
 R16
 !i10b 1
 R17
-Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/register.vhd|
-Z49 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/register.vhd|
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/register.vhd|
+Z48 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/register.vhd|
 !i113 1
 R11
 R12
@@ -276,29 +276,29 @@ R6
 R16
 !i10b 1
 R17
+R47
 R48
-R49
 !i113 1
 R11
 R12
 En_tristate
-R35
+R34
 R2
 R3
 R0
-Z50 8C:/Users/saadm/Desktop/Computer-Architecture-Project/tristate.vhd
-Z51 FC:/Users/saadm/Desktop/Computer-Architecture-Project/tristate.vhd
+Z49 8C:/Users/saadm/Desktop/Computer-Architecture-Project/tristate.vhd
+Z50 FC:/Users/saadm/Desktop/Computer-Architecture-Project/tristate.vhd
 l0
 L4
 V5_F6:__3fRIelX>=aDl:Q0
 !s100 <KRh32mRAn8ATnPhcFzCE0
 R6
 32
-Z52 !s110 1610829874
+Z51 !s110 1610829874
 !i10b 1
 R17
-Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/tristate.vhd|
-Z54 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/tristate.vhd|
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/tristate.vhd|
+Z53 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/tristate.vhd|
 !i113 1
 R11
 R12
@@ -312,32 +312,69 @@ VSV>fiJWUOgM3T=JCYg@lZ1
 !s100 F;B2DX=1TK94zELf^RzKj2
 R6
 32
-R52
+R51
 !i10b 1
 R17
+R52
 R53
-R54
 !i113 1
 R11
 R12
-Esource_decoder
-Z55 w1610834222
+Eright_side
+Z54 w1610896951
 R2
 R3
 R0
-Z56 8sourceDecoder.vhd
-Z57 FsourceDecoder.vhd
+Z55 8RightSide.vhd
+Z56 FRightSide.vhd
+l0
+L4
+V[<9Z>=;8bT@0=lK[27Q0>3
+!s100 lX4j8E0TC85F<_6:1^E5G2
+R6
+32
+Z57 !s110 1610896961
+!i10b 1
+Z58 !s108 1610896961.000000
+Z59 !s90 RightSide.vhd|
+Z60 !s107 RightSide.vhd|
+!i113 1
+R12
+Aa_right_side
+R2
+R3
+Z61 DEx4 work 10 right_side 0 22 [<9Z>=;8bT@0=lK[27Q0>3
+l50
+L17
+Z62 VcibznEXO;7kXz@UcFH<lY3
+Z63 !s100 bHOXNDh?1zf[4SmjU0Dl01
+R6
+32
+R57
+!i10b 1
+R58
+R59
+R60
+!i113 1
+R12
+Esource_decoder
+Z64 w1610834222
+R2
+R3
+R0
+Z65 8sourceDecoder.vhd
+Z66 FsourceDecoder.vhd
 l0
 L4
 V8H0@4_8<R@VTd6n?8SM;51
 !s100 CL_b5WgY;kKV0eUBZ`aWT3
 R6
 32
-Z58 !s110 1610834225
+Z67 !s110 1610896710
 !i10b 1
-Z59 !s108 1610834225.000000
-Z60 !s90 sourceDecoder.vhd|
-Z61 !s107 sourceDecoder.vhd|
+Z68 !s108 1610896710.000000
+Z69 !s90 sourceDecoder.vhd|
+Z70 !s107 sourceDecoder.vhd|
 !i113 1
 R12
 Aa_source_decoder
@@ -350,21 +387,21 @@ VhM6fVW`^oUkc8dX__VXok3
 !s100 lMO=l<mmS]Pcmd]S8S?Ig1
 R6
 32
-R58
+R67
 !i10b 1
-R59
-R60
-R61
+R68
+R69
+R70
 !i113 1
 R12
 Especial_register_file
+R34
 R35
-R36
 R2
 R3
 R0
-Z62 8C:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd
-Z63 FC:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd
+Z71 8C:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd
+Z72 FC:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd
 l0
 L5
 VaAPizJigQg_Z2GnGW30iH3
@@ -374,13 +411,13 @@ R6
 R16
 !i10b 1
 R17
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd|
-Z65 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd|
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd|
+Z74 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd|
 !i113 1
 R11
 R12
 Aa_special_register_file
-R36
+R35
 R2
 R3
 DEx4 work 21 special_register_file 0 22 aAPizJigQg_Z2GnGW30iH3
@@ -393,18 +430,18 @@ R6
 R16
 !i10b 1
 R17
-R64
-R65
+R73
+R74
 !i113 1
 R11
 R12
 Espr_alu_ram
-R35
+R34
 R2
 R3
 R0
-Z66 8C:/Users/saadm/Desktop/Computer-Architecture-Project/SPR_ALU_RAM.vhd
-Z67 FC:/Users/saadm/Desktop/Computer-Architecture-Project/SPR_ALU_RAM.vhd
+Z75 8C:/Users/saadm/Desktop/Computer-Architecture-Project/SPR_ALU_RAM.vhd
+Z76 FC:/Users/saadm/Desktop/Computer-Architecture-Project/SPR_ALU_RAM.vhd
 l0
 L4
 VkJd>i4[4gQiQnlVM_AQ@>0
@@ -414,8 +451,8 @@ R6
 R16
 !i10b 1
 R17
-Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/SPR_ALU_RAM.vhd|
-Z69 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/SPR_ALU_RAM.vhd|
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/SPR_ALU_RAM.vhd|
+Z78 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/SPR_ALU_RAM.vhd|
 !i113 1
 R11
 R12
@@ -432,8 +469,8 @@ R6
 R16
 !i10b 1
 R17
-R68
-R69
+R77
+R78
 !i113 1
 R11
 R12

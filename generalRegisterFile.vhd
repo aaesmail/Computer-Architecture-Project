@@ -6,9 +6,8 @@ ENTITY general_registers IS
         data_bus : INOUT STD_LOGIC_VECTOR(15 DOWNTO 0);
         register_out : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
         register_in : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
-        clk : IN STD_LOGIC;
-        sp_in, pc_in : IN STD_LOGIC;
-        sp_out, pc_out : IN STD_LOGIC
+        clk, reset : IN STD_LOGIC;
+        sp_in, pc_in, sp_out, pc_out : IN STD_LOGIC
     );
 END general_registers;
 
@@ -36,7 +35,7 @@ ARCHITECTURE a_general_registers OF general_registers IS
 BEGIN
 
     loop1 : FOR i IN 0 TO 5 GENERATE
-        R_x : n_register PORT MAP(clk, '0', register_in(i), data_bus, register_outputs(i));
+        R_x : n_register PORT MAP(clk, reset, register_in(i), data_bus, register_outputs(i));
         T_x : n_tristate PORT MAP(register_out(i), register_outputs(i), data_bus);
     END GENERATE;
 
@@ -46,7 +45,7 @@ BEGIN
     sp_pc_out(1) <= register_out(7) OR pc_out;
 
     loop2 : FOR i IN 0 TO 1 GENERATE
-        R_y : n_register PORT MAP(clk, '0', sp_pc_in(i), data_bus, register_outputs(i + 6));
+        R_y : n_register PORT MAP(clk, reset, sp_pc_in(i), data_bus, register_outputs(i + 6));
         T_y : n_tristate PORT MAP(sp_pc_out(i), register_outputs(i + 6), data_bus);
     END GENERATE;
 END a_general_registers;
