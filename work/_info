@@ -8,469 +8,637 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/saadm/Desktop/Computer-Architecture-Project
-Edecoder_2x4
-Z1 w1610827725
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-R0
-Z4 8C:/Users/saadm/Desktop/Computer-Architecture-Project/decoder_2x4.vhd
-Z5 FC:/Users/saadm/Desktop/Computer-Architecture-Project/decoder_2x4.vhd
+Ebranch_decoder
+Z1 w1610850106
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project
+Z6 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/instruction_decoder.vhd
+Z7 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/instruction_decoder.vhd
 l0
-L4
-V`^NU`3VShdNmAo`b]BYaR1
-!s100 H?[PIR]Z^9iazA>ofUm^53
-Z6 OV;C;10.4d;61
+L5
+V?_IT_6JFT[2NNeK97KRA_3
+!s100 f;4LIF[gYXh=9^dIejPUh1
+Z8 OV;C;10.5b;63
 32
-Z7 !s110 1610829872
+Z9 !s110 1610910791
 !i10b 1
-Z8 !s108 1610829872.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/decoder_2x4.vhd|
-Z10 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/decoder_2x4.vhd|
+Z10 !s108 1610910791.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/instruction_decoder.vhd|
+Z12 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/instruction_decoder.vhd|
 !i113 1
-Z11 o-work work -2002 -explicit
-Z12 tExplicit 1
-Amymodel
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Aa_branch_decoder
 R2
 R3
-DEx4 work 11 decoder_2x4 0 22 `^NU`3VShdNmAo`b]BYaR1
-l15
-L14
-VE;X@b51ENkCZTf4>G3]M32
-!s100 Pg[CiNfLADj]_`05Xm[ZZ2
-R6
-32
-R7
-!i10b 1
+R4
+DEx4 work 14 branch_decoder 0 22 ?_IT_6JFT[2NNeK97KRA_3
+l14
+L13
+VEP7n0Sd^<P1KQb8>mfn=]1
+!s100 B1o<Z5QV07?N9h<9?R7l03
 R8
+32
 R9
+!i10b 1
 R10
-!i113 1
 R11
 R12
-Edecoder_3x8
-Z13 w1610827978
-R2
+!i113 1
+R13
+R14
+Ecode_store_rom
+Z15 w1610851049
+Z16 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z17 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
 R3
-R0
-Z14 8C:/Users/saadm/Desktop/Computer-Architecture-Project/decoder_3x8.vhd
-Z15 FC:/Users/saadm/Desktop/Computer-Architecture-Project/decoder_3x8.vhd
+R4
+R5
+Z18 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/code_store_rom.vhd
+Z19 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/code_store_rom.vhd
+l0
+L10
+V8Y[inW7F6C6:?6THTAdZa1
+!s100 ;<ZPRzH^1NG<ZAR9^8PI[0
+R8
+32
+R9
+!i10b 1
+R10
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/code_store_rom.vhd|
+Z21 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/code_store_rom.vhd|
+!i113 1
+R13
+R14
+Aa_code_store_rom
+R16
+R17
+R3
+R4
+DEx4 work 14 code_store_rom 0 22 8Y[inW7F6C6:?6THTAdZa1
+l542
+L23
+Vf`PTVm0:46lK9`HRdzkPM0
+!s100 Of`?42PjN^R_lE=0e^T621
+R8
+32
+R9
+!i10b 1
+R10
+R20
+R21
+!i113 1
+R13
+R14
+Edecoder_2x4
+Z22 w1610908798
+R3
+R4
+R5
+Z23 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_2x4.vhd
+Z24 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_2x4.vhd
 l0
 L4
-VXbRO`Al>[?l7LR03:;9@a3
-!s100 b0fSAjY;B:6hY7M0cPB?c1
-R6
+VNQZU9ICd]f<<G>:H3>Yic3
+!s100 H?[PIR]Z^9iazA>ofUm^53
+R8
 32
-Z16 !s110 1610829873
+Z25 !s110 1610910677
 !i10b 1
-Z17 !s108 1610829873.000000
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/decoder_3x8.vhd|
-Z19 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/decoder_3x8.vhd|
+Z26 !s108 1610910677.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_2x4.vhd|
+Z28 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_2x4.vhd|
 !i113 1
-R11
-R12
+R13
+R14
 Amymodel
-R2
 R3
-DEx4 work 11 decoder_3x8 0 22 XbRO`Al>[?l7LR03:;9@a3
+R4
+DEx4 work 11 decoder_2x4 0 22 NQZU9ICd]f<<G>:H3>Yic3
 l15
 L14
-Vkm1h0Z9B[:=_go5B3`M7;0
-!s100 Z9z<jKhj`P8]gWGoTeM@12
-R6
+VH1>]2aQ`?JX6g_`2Pd>^Q0
+!s100 Pg[CiNfLADj]_`05Xm[ZZ2
+R8
 32
-R16
+R25
 !i10b 1
-R17
-R18
-R19
+R26
+R27
+R28
 !i113 1
-R11
-R12
-Edestination_decoder
-Z20 w1610834075
-R2
+R13
+R14
+Edecoder_3x8
+R22
 R3
-R0
-Z21 8destinationDecoder.vhd
-Z22 FdestinationDecoder.vhd
+R4
+R5
+Z29 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_3x8.vhd
+Z30 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_3x8.vhd
 l0
 L4
-VUf<1jKFzbG^2d]NPFCl0@2
-!s100 YXW2DbdkEe7Lz[4iB<z[53
-R6
+V;^bfbOf8O=>nKZ1^i^@gA1
+!s100 b0fSAjY;B:6hY7M0cPB?c1
+R8
 32
-Z23 !s110 1610896715
+Z31 !s110 1610910678
 !i10b 1
-Z24 !s108 1610896715.000000
-Z25 !s90 destinationDecoder.vhd|
-Z26 !s107 destinationDecoder.vhd|
+Z32 !s108 1610910678.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_3x8.vhd|
+Z34 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_3x8.vhd|
 !i113 1
-R12
-Aa_destination_decoder
-R2
+R13
+R14
+Amymodel
 R3
-DEx4 work 19 destination_decoder 0 22 Uf<1jKFzbG^2d]NPFCl0@2
+R4
+DEx4 work 11 decoder_3x8 0 22 ;^bfbOf8O=>nKZ1^i^@gA1
+l15
+L14
+VAe@UaLF0AdlW`^Z0<Dd5J3
+!s100 Z9z<jKhj`P8]gWGoTeM@12
+R8
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R13
+R14
+Edestination_decoder
+R22
+R3
+R4
+R5
+Z35 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/destinationDecoder.vhd
+Z36 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/destinationDecoder.vhd
+l0
+L4
+VHi30AV0C6=4If9^D<EeIF0
+!s100 YXW2DbdkEe7Lz[4iB<z[53
+R8
+32
+R31
+!i10b 1
+R32
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/destinationDecoder.vhd|
+Z38 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/destinationDecoder.vhd|
+!i113 1
+R13
+R14
+Aa_destination_decoder
+R3
+R4
+DEx4 work 19 destination_decoder 0 22 Hi30AV0C6=4If9^D<EeIF0
 l36
 L15
-V?5`c_K0h;j>P5LLICiG@63
+VXXo;nVSPAnO`YM@JOEjgz3
 !s100 iANQY>db5:c9gX5Q=1XGJ1
-R6
+R8
 32
-R23
+R31
 !i10b 1
-R24
-R25
-R26
+R32
+R37
+R38
 !i113 1
-R12
+R13
+R14
 Egeneral_registers
-Z27 w1610896387
-R2
+Z39 w1610896387
 R3
+R4
 R0
-Z28 8generalRegisterFile.vhd
-Z29 FgeneralRegisterFile.vhd
+Z40 8generalRegisterFile.vhd
+Z41 FgeneralRegisterFile.vhd
 l0
 L4
 VH[k5Nj=A;>;MKF^IYi>_M3
 !s100 48bOO5>_gVb^WGzWA1KZm2
-R6
+Z42 OV;C;10.4d;61
 32
-Z30 !s110 1610896705
+Z43 !s110 1610896705
 !i10b 1
-Z31 !s108 1610896705.000000
-Z32 !s90 generalRegisterFile.vhd|
-Z33 !s107 generalRegisterFile.vhd|
+Z44 !s108 1610896705.000000
+Z45 !s90 generalRegisterFile.vhd|
+Z46 !s107 generalRegisterFile.vhd|
 !i113 1
-R12
+Z47 tExplicit 1
 Aa_general_registers
-R2
 R3
+R4
 DEx4 work 17 general_registers 0 22 H[k5Nj=A;>;MKF^IYi>_M3
 l35
 L14
 VnUeg`4hG]^@MAe`O>H[?81
 !s100 >6fJ4@kBG2Rhb`=`GRBK41
-R6
+R42
 32
-R30
+R43
 !i10b 1
-R31
-R32
-R33
+R44
+R45
+R46
 !i113 1
-R12
-En_alu
-Z34 w1610824633
-Z35 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R47
+Einstruction_decoder
+R1
 R2
 R3
-R0
-Z36 8C:/Users/saadm/Desktop/Computer-Architecture-Project/ALU.vhd
-Z37 FC:/Users/saadm/Desktop/Computer-Architecture-Project/ALU.vhd
-l0
-L5
-VOU5D@OzkN?PeHRzLE8>Rm1
-!s100 M1@Q5dc?[]Cmo`9HEz?Fe0
+R4
+R5
 R6
-32
 R7
-!i10b 1
+l0
+L32
+V;W`N3QGBo7mU6aN9Kn_8T3
+!s100 m:fi1jI1?4h>d0?>aabZ=0
 R8
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/ALU.vhd|
-Z39 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/ALU.vhd|
-!i113 1
+32
+R9
+!i10b 1
+R10
 R11
 R12
-Aa_alu
-R35
+!i113 1
+R13
+R14
+Aa_instruction_decoder
 R2
 R3
-DEx4 work 5 n_alu 0 22 OU5D@OzkN?PeHRzLE8>Rm1
+R4
+DEx4 work 19 instruction_decoder 0 22 ;W`N3QGBo7mU6aN9Kn_8T3
+l94
+L55
+V2n@U`C4fUhRbWW[33Cn<j2
+!s100 cOJ][Fd?KeZBJ3c5EGYH`0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+En_alu
+R22
+R2
+R3
+R4
+R5
+Z48 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/ALU.vhd
+Z49 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/ALU.vhd
+l0
+L5
+V;>b7XLg[nfc8@L7d1^[BM0
+!s100 M1@Q5dc?[]Cmo`9HEz?Fe0
+R8
+32
+R25
+!i10b 1
+R26
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/ALU.vhd|
+Z51 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/ALU.vhd|
+!i113 1
+R13
+R14
+Aa_alu
+R2
+R3
+R4
+DEx4 work 5 n_alu 0 22 ;>b7XLg[nfc8@L7d1^[BM0
 l22
 L15
-VSBK3:2:UYYaP_T3V_<Vb:0
+V[dNLA5W7bRYVjC3G9Km:K2
 !s100 ]GmngBdQn[J6f4nTCAbJ=0
-R6
-32
-R7
-!i10b 1
 R8
-R38
-R39
+32
+R25
+!i10b 1
+R26
+R50
+R51
 !i113 1
-R11
-R12
+R13
+R14
 En_ram
-R34
-R35
+R22
 R2
 R3
-R0
-Z40 8C:/Users/saadm/Desktop/Computer-Architecture-Project/memory.vhd
-Z41 FC:/Users/saadm/Desktop/Computer-Architecture-Project/memory.vhd
+R4
+R5
+Z52 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/memory.vhd
+Z53 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/memory.vhd
 l0
 L5
-V8@ia1LFP9hhdfz3VX_jVB2
+Vk]U0]AF0iS_;bg]CRVaR:1
 !s100 d:>VRX9AVE;]h_1RW0_>z0
-R6
+R8
 32
-R16
+R31
 !i10b 1
-R17
-Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/memory.vhd|
-Z43 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/memory.vhd|
+R32
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/memory.vhd|
+Z55 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/memory.vhd|
 !i113 1
-R11
-R12
+R13
+R14
 Aa_ram
-R35
 R2
 R3
-DEx4 work 5 n_ram 0 22 8@ia1LFP9hhdfz3VX_jVB2
+R4
+DEx4 work 5 n_ram 0 22 k]U0]AF0iS_;bg]CRVaR:1
 l19
 L15
-V@jn=2@03^?_aSHGezBCol1
+Vb_LEM2=]ng5:UejNeoeNJ0
 !s100 6:FS>AE0g96]KVa2ife1N2
-R6
+R8
 32
-R16
+R31
 !i10b 1
-R17
-R42
-R43
+R32
+R54
+R55
 !i113 1
-R11
-R12
+R13
+R14
 En_register
-Z44 w1610826571
-R2
+R22
 R3
-R0
-Z45 8C:/Users/saadm/Desktop/Computer-Architecture-Project/register.vhd
-Z46 FC:/Users/saadm/Desktop/Computer-Architecture-Project/register.vhd
+R4
+R5
+Z56 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd
+Z57 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd
 l0
 L4
-VVzbOAD8P8kd]B@g90OZ^M2
+V_Hod2Q3[Ze4ka>?9?0njR1
 !s100 MLQS?3DI9iOMgdS<0n<GY2
-R6
+R8
 32
-R16
+R31
 !i10b 1
-R17
-Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/register.vhd|
-Z48 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/register.vhd|
+R32
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd|
+Z59 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd|
 !i113 1
-R11
-R12
+R13
+R14
 Aa_register
-R2
 R3
-DEx4 work 10 n_register 0 22 VzbOAD8P8kd]B@g90OZ^M2
+R4
+DEx4 work 10 n_register 0 22 _Hod2Q3[Ze4ka>?9?0njR1
 l13
 L12
-V_Fd_zB;P19lXfOB>Q443_2
+VQ=GeUI8DFB3lKJR=AmdGk2
 !s100 2jje>bfahzMio?@ORMf4A3
-R6
+R8
 32
-R16
+R31
 !i10b 1
-R17
-R47
-R48
+R32
+R58
+R59
 !i113 1
-R11
-R12
+R13
+R14
 En_tristate
-R34
-R2
+R22
 R3
-R0
-Z49 8C:/Users/saadm/Desktop/Computer-Architecture-Project/tristate.vhd
-Z50 FC:/Users/saadm/Desktop/Computer-Architecture-Project/tristate.vhd
+R4
+R5
+Z60 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/tristate.vhd
+Z61 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/tristate.vhd
 l0
 L4
-V5_F6:__3fRIelX>=aDl:Q0
+VCRHE7PMO`bETeTR0AZUjV3
 !s100 <KRh32mRAn8ATnPhcFzCE0
-R6
+R8
 32
-Z51 !s110 1610829874
+Z62 !s110 1610910679
 !i10b 1
-R17
-Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/tristate.vhd|
-Z53 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/tristate.vhd|
+R32
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/tristate.vhd|
+Z64 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/tristate.vhd|
 !i113 1
-R11
-R12
+R13
+R14
 Aa_tristate
-R2
 R3
-DEx4 work 10 n_tristate 0 22 5_F6:__3fRIelX>=aDl:Q0
+R4
+DEx4 work 10 n_tristate 0 22 CRHE7PMO`bETeTR0AZUjV3
 l13
 L12
-VSV>fiJWUOgM3T=JCYg@lZ1
+Vf3RYWVZYjCKZXd_>;@X=P2
 !s100 F;B2DX=1TK94zELf^RzKj2
-R6
+R8
 32
-R51
+R62
 !i10b 1
-R17
-R52
-R53
+R32
+R63
+R64
 !i113 1
-R11
-R12
-Eright_side
-Z54 w1610896951
+R13
+R14
+Epla
+Z65 w1610854872
 R2
 R3
+R4
+R5
+Z66 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd
+Z67 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd
+l0
+L5
+V;o1zce_9zFJbSW78l`>BC0
+!s100 S<QLMNJ7KIncVac>aSLUh2
+R8
+32
+R9
+!i10b 1
+R10
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd|
+Z69 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd|
+!i113 1
+R13
+R14
+Aa_pla
+R2
+R3
+R4
+DEx4 work 3 pla 0 22 ;o1zce_9zFJbSW78l`>BC0
+l20
+L18
+VCok<ng]HSmeD6cR`D<Si90
+!s100 VQ5MKOWb1hUo9@XLQX9e]3
+R8
+32
+R9
+!i10b 1
+R10
+R68
+R69
+!i113 1
+R13
+R14
+Eright_side
+Z70 w1610896951
+R3
+R4
 R0
-Z55 8RightSide.vhd
-Z56 FRightSide.vhd
+Z71 8RightSide.vhd
+Z72 FRightSide.vhd
 l0
 L4
 V[<9Z>=;8bT@0=lK[27Q0>3
 !s100 lX4j8E0TC85F<_6:1^E5G2
-R6
+R42
 32
-Z57 !s110 1610896961
+Z73 !s110 1610896961
 !i10b 1
-Z58 !s108 1610896961.000000
-Z59 !s90 RightSide.vhd|
-Z60 !s107 RightSide.vhd|
+Z74 !s108 1610896961.000000
+Z75 !s90 RightSide.vhd|
+Z76 !s107 RightSide.vhd|
 !i113 1
-R12
+R47
 Aa_right_side
-R2
 R3
-Z61 DEx4 work 10 right_side 0 22 [<9Z>=;8bT@0=lK[27Q0>3
+R4
+DEx4 work 10 right_side 0 22 [<9Z>=;8bT@0=lK[27Q0>3
 l50
 L17
-Z62 VcibznEXO;7kXz@UcFH<lY3
-Z63 !s100 bHOXNDh?1zf[4SmjU0Dl01
-R6
+VcibznEXO;7kXz@UcFH<lY3
+!s100 bHOXNDh?1zf[4SmjU0Dl01
+R42
 32
-R57
+R73
 !i10b 1
-R58
-R59
-R60
+R74
+R75
+R76
 !i113 1
-R12
+R47
 Esource_decoder
-Z64 w1610834222
-R2
+Z77 w1610834222
 R3
+R4
 R0
-Z65 8sourceDecoder.vhd
-Z66 FsourceDecoder.vhd
+Z78 8sourceDecoder.vhd
+Z79 FsourceDecoder.vhd
 l0
 L4
 V8H0@4_8<R@VTd6n?8SM;51
 !s100 CL_b5WgY;kKV0eUBZ`aWT3
-R6
+R42
 32
-Z67 !s110 1610896710
+Z80 !s110 1610896710
 !i10b 1
-Z68 !s108 1610896710.000000
-Z69 !s90 sourceDecoder.vhd|
-Z70 !s107 sourceDecoder.vhd|
+Z81 !s108 1610896710.000000
+Z82 !s90 sourceDecoder.vhd|
+Z83 !s107 sourceDecoder.vhd|
 !i113 1
-R12
+R47
 Aa_source_decoder
-R2
 R3
+R4
 DEx4 work 14 source_decoder 0 22 8H0@4_8<R@VTd6n?8SM;51
 l36
 L13
 VhM6fVW`^oUkc8dX__VXok3
 !s100 lMO=l<mmS]Pcmd]S8S?Ig1
-R6
+R42
 32
-R67
+R80
 !i10b 1
-R68
-R69
-R70
+R81
+R82
+R83
 !i113 1
-R12
+R47
 Especial_register_file
-R34
-R35
+R22
 R2
 R3
-R0
-Z71 8C:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd
-Z72 FC:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd
+R4
+R5
+Z84 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SpecialRegisterFile.vhd
+Z85 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SpecialRegisterFile.vhd
 l0
 L5
-VaAPizJigQg_Z2GnGW30iH3
+Vi543f<D`fXAinH6^=VAX32
 !s100 Q6H`fWRLlMVF34cYa0?dS0
-R6
+R8
 32
-R16
+R31
 !i10b 1
-R17
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd|
-Z74 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd|
+R32
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SpecialRegisterFile.vhd|
+Z87 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SpecialRegisterFile.vhd|
 !i113 1
-R11
-R12
+R13
+R14
 Aa_special_register_file
-R35
 R2
 R3
-DEx4 work 21 special_register_file 0 22 aAPizJigQg_Z2GnGW30iH3
+R4
+DEx4 work 21 special_register_file 0 22 i543f<D`fXAinH6^=VAX32
 l79
 L45
-Vz`TM]gzk5z62H^U`AIDLj1
+VK1b?@BSeO[^Y`iSehWhVn1
 !s100 QKjDc:mz=iC5k4aBe0cnj2
-R6
+R8
 32
-R16
+R31
 !i10b 1
-R17
-R73
-R74
+R32
+R86
+R87
 !i113 1
-R11
-R12
+R13
+R14
 Espr_alu_ram
-R34
-R2
+R22
 R3
-R0
-Z75 8C:/Users/saadm/Desktop/Computer-Architecture-Project/SPR_ALU_RAM.vhd
-Z76 FC:/Users/saadm/Desktop/Computer-Architecture-Project/SPR_ALU_RAM.vhd
+R4
+R5
+Z88 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SPR_ALU_RAM.vhd
+Z89 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SPR_ALU_RAM.vhd
 l0
 L4
-VkJd>i4[4gQiQnlVM_AQ@>0
+V3=ZZTgzSAhoz>9nF38fJJ3
 !s100 FB^76aI;=F1__YSzCbJZ12
-R6
+R8
 32
-R16
+R31
 !i10b 1
-R17
-Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/saadm/Desktop/Computer-Architecture-Project/SPR_ALU_RAM.vhd|
-Z78 !s107 C:/Users/saadm/Desktop/Computer-Architecture-Project/SPR_ALU_RAM.vhd|
+R32
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SPR_ALU_RAM.vhd|
+Z91 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SPR_ALU_RAM.vhd|
 !i113 1
-R11
-R12
+R13
+R14
 Aa_spr_alu_ram
-R2
 R3
-DEx4 work 11 spr_alu_ram 0 22 kJd>i4[4gQiQnlVM_AQ@>0
+R4
+DEx4 work 11 spr_alu_ram 0 22 3=ZZTgzSAhoz>9nF38fJJ3
 l99
 L21
-VXeSfXO9o;H_URJjKRFkf]3
+VJLlAkiSiQ@<SN1V3c08z]2
 !s100 V@EU:Ja_i6l@_IJ<z]TSM1
-R6
+R8
 32
-R16
+R31
 !i10b 1
-R17
-R77
-R78
+R32
+R90
+R91
 !i113 1
-R11
-R12
+R13
+R14
