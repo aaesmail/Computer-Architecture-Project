@@ -6,6 +6,14 @@ Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
 -- Compiling entity Decoder_2x4
 -- Compiling architecture myModel of Decoder_2x4
 
+} {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/controlClock.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/controlClock.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Control_Clock
+-- Compiling architecture arch_Control_Clock of Control_Clock
+
 } {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -47,6 +55,23 @@ Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
 -- Loading package std_logic_1164
 -- Compiling entity n_register
 -- Compiling architecture a_register of n_register
+
+} {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/sourceDecoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/sourceDecoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity source_decoder
+-- Compiling architecture a_source_decoder of source_decoder
+
+} {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/dFlipFlop.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/dFlipFlop.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity D_FLIP_FLOP
+-- Compiling architecture arch_D_FLIP_FLOP of D_FLIP_FLOP
 
 } {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/destinationDecoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/destinationDecoder.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -90,6 +115,23 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity n_alu
 -- Compiling architecture a_alu of n_alu
 
+} {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/generalRegisterFile.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/generalRegisterFile.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity general_registers
+-- Compiling architecture a_general_registers of general_registers
+
+} {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/RightSide.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/RightSide.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity right_side
+-- Compiling architecture a_right_side of right_side
+
 } {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_2x4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_2x4.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -115,6 +157,19 @@ Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
 -- Loading package std_logic_1164
 -- Compiling entity SPR_ALU_RAM
 -- Compiling architecture a_SPR_ALU_RAM of SPR_ALU_RAM
+
+} {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/instruction_decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/instruction_decoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity branch_decoder
+-- Compiling architecture a_branch_decoder of branch_decoder
+-- Compiling entity n_9_register
+-- Compiling architecture a_9_register of n_9_register
+-- Compiling entity instruction_decoder
+-- Compiling architecture a_instruction_decoder of instruction_decoder
 
 } {} {}} C:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/saadm/Desktop/Computer-Architecture-Project/SpecialRegisterFile.vhd
 Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015

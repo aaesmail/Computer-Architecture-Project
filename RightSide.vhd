@@ -1,5 +1,6 @@
 LIBRARY IEEE;
-USE IEEE.std_logic_1164.ALL;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.numeric_std.all;
 
 ENTITY right_side IS
     PORT (

@@ -1,2 +1,5 @@
 *.mpf
 *.mti
+
+work/
+work/*
