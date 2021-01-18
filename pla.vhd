@@ -35,8 +35,8 @@ BEGIN
 											o"260"  WHEN branches(1) = '1' AND IR(15 DOWNTO 12) = "1001" AND IR(5 DOWNTO 4) = "11" ELSE		-- index
 											-- B1 decode instruction (others)
 											o"400"  WHEN branches(1) = '1' AND IR(15 DOWNTO 12) = "1010"  ELSE																				-- branches
-											o"500"  WHEN branches(1) = '1' AND IR(15 DOWNTO 12) = "1010" AND IR(11 DOWNTO 0) = "000000000000" ELSE		-- HLT
-											o"510"  WHEN branches(1) = '1' AND IR(15 DOWNTO 12) = "1011" AND IR(11 DOWNTO 0) = "000000000001" ELSE		-- NOP
+											o"500"  WHEN branches(1) = '1' AND IR(15 DOWNTO 12) = "1011" AND IR(11 DOWNTO 0) = "000000000000" ELSE		-- HLT
+											o"510"  WHEN branches(1) = '1' AND IR(15 DOWNTO 12) = "1011" AND IR(11 DOWNTO 0) = "100000000000" ELSE		-- NOP
 											o"600"  WHEN branches(1) = '1' AND IR(15 DOWNTO 12) = "1100" ELSE																					-- JSR
 											o"610"  WHEN branches(1) = '1' AND IR(15 DOWNTO 12) = "1101" ELSE																					-- RTS
 											o"620"  WHEN branches(1) = '1' AND IR(15 DOWNTO 12) = "1110" ELSE																					-- INT

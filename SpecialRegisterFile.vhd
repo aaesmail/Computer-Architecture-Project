@@ -37,7 +37,9 @@ ENTITY special_register_file IS
 		-- Flag
 		ALU_CF, ALU_NF, ALU_ZF: IN std_logic;
 		Edit_Flag, FLAGin, FLAGout: IN std_logic;
-		CF, NF, ZF: OUT std_logic
+		CF, NF, ZF: OUT std_logic;
+		F5: IN std_logic_vector(3 DOWNTO 0)
+
 
 	);
 END special_register_file;
@@ -49,6 +51,14 @@ COMPONENT n_register IS
 		clk, rst, enable : IN std_logic;
 		d : IN std_logic_vector(15 DOWNTO 0);
 		q : OUT std_logic_vector(15 DOWNTO 0)
+	);
+END COMPONENT;
+
+COMPONENT n_register_rising IS
+	PORT (
+		clk, rst, enable : IN STD_LOGIC;
+		d : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+		q : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
 	);
 END COMPONENT;
 
@@ -75,6 +85,7 @@ SIGNAL temp_flag_out: std_logic_vector(15 DOWNTO 0);
 SIGNAL MDR_ENABLE: std_logic;
 SIGNAL FLAG_ENABLE: std_logic;
 SIGNAL temp_y_reset: std_logic;
+SIGNAL temp_z_in: std_logic;
 
 BEGIN
 
@@ -98,7 +109,8 @@ BEGIN
 	u5: n_tristate PORT MAP (DSTout, temp_Dest_out, MAIN_BUS_OUT);
 
 	-- Z Register
-	u6: n_register PORT MAP (CLK, RESET, '1', ALU, temp_Z_out);
+	temp_z_in <= F5(0) OR F5(1) OR F5(2) OR F5(3);
+	u6: n_register PORT MAP (CLK, RESET, temp_z_in, ALU, temp_Z_out);
 	u7: n_tristate PORT MAP (Zout, temp_Z_out, MAIN_BUS_OUT);
 	
 	-- Y Register
@@ -113,7 +125,7 @@ BEGIN
 	ELSE Memory_Data WHEN Memory_Read_Enable = '1';
 
 	MDR_ENABLE <= MDRin OR Memory_Read_Enable;
-	u10: n_register PORT MAP (CLK, RESET, MDR_ENABLE, mdr_in, temp_mdr_out);
+	u10: n_register_rising PORT MAP (CLK, RESET, MDR_ENABLE, mdr_in, temp_mdr_out);
 	MDR_OUT <= temp_mdr_out;
 	u15: n_tristate PORT MAP (MDRout, temp_mdr_out, MAIN_BUS_OUT);
 

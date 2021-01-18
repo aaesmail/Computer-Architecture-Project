@@ -55,7 +55,8 @@ COMPONENT special_register_file IS
 		-- Flag
 		ALU_CF, ALU_NF, ALU_ZF: IN std_logic;
 		Edit_Flag, FLAGin, FLAGout: IN std_logic;
-		CF, NF, ZF: OUT std_logic
+		CF, NF, ZF: OUT std_logic;
+		F5: IN std_logic_vector(3 DOWNTO 0)
 
 	);
 END COMPONENT;
@@ -102,7 +103,7 @@ BEGIN
 
 	u2: n_alu PORT MAP (temp_carry_flag, CLEAR_CARRY_SIGNAL, SET_CARRY_SIGNAL, CLK, F5, temp_y_out, MAIN_BUS, temp_alu_out, temp_alu_carry, temp_alu_zero, temp_alu_negative);
 
-	u3: special_register_file PORT MAP (CLK, RESET, MAIN_BUS, MAIN_BUS, IRin, IR_OUT, OFFSETout, ADDRESSout, SRCin, SRCout, DSTin, DSTout, Zout, temp_alu_out, Yin, CLRY, temp_y_out, MARin, temp_mar_out, MDRin, MDRout, temp_ram_out, MemoryReadEnable, temp_mdr_out, temp_alu_carry, temp_alu_negative, temp_alu_zero, Edit_Flag, FLAGin, FLAGout, temp_carry_flag, NF, ZF);
+	u3: special_register_file PORT MAP (CLK, RESET, MAIN_BUS, MAIN_BUS, IRin, IR_OUT, OFFSETout, ADDRESSout, SRCin, SRCout, DSTin, DSTout, Zout, temp_alu_out, Yin, CLRY, temp_y_out, MARin, temp_mar_out, MDRin, MDRout, temp_ram_out, MemoryReadEnable, temp_mdr_out, temp_alu_carry, temp_alu_negative, temp_alu_zero, Edit_Flag, FLAGin, FLAGout, temp_carry_flag, NF, ZF, F5);
 
 	CF <= temp_carry_flag;
 

@@ -94,6 +94,9 @@ MFC <= '1';
 CLEAR_CARRY_SIGNAL <= F8(1);
 SET_CARRY_SIGNAL <= F8(0);
 interrupt_ack <= setACK;
+MemoryReadEnable <= F6(0);
+MemoryWriteEnable <= F6(1);
+CLRY <= F7;
 
 control_clock_module: Control_Clock PORT MAP(F9, start_signal, HALT, MemoryReadEnable, MemoryWriteEnable, CLOCK, MFC, CONTROL_CLOCK_SIG);
 instruction_decoder_module: instruction_decoder PORT MAP(start_signal, CONTROL_CLOCK_SIG, interrupt_signal, CF, ZF, IR, F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, HALT);

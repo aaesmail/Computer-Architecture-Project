@@ -25,47 +25,70 @@ BEGIN
 	carry_in(0) <= (CF AND (NOT Clear_Carry) AND (NOT Set_Carry)) OR (Set_Carry);
 
 	
-	PROCESS(clk, MAIN_BUS, Y, F5, intermediate)
-	VARIABLE temp: INTEGER;
-	BEGIN
-	IF rising_edge(clk) THEN
+	-- PROCESS(clk, MAIN_BUS, Y, F5, intermediate)
+	-- VARIABLE temp: INTEGER;
+	-- BEGIN
+	-- IF clk = '1' THEN -- Changed from rising edge to level '1'
+	-- 	IF F5 = "0001" THEN
+	-- 		intermediate <= MAIN_BUS;
+	-- 	ELSIF F5 = "0010" THEN
+	-- 		result <= std_logic_vector(resize(signed(MAIN_BUS), 17) + resize(signed(Y), 17) + resize(signed(carry_in), 17));
+	-- 	ELSIF F5 = "0011" THEN
+	-- 		result <= std_logic_vector(resize(signed(MAIN_BUS), 17) - resize(signed(Y), 17) - resize(signed(carry_in), 17));
+	-- 	ELSIF F5 = "0100" THEN
+	-- 		intermediate <= (Y AND MAIN_BUS);
+	-- 	ELSIF F5 = "0101" THEN
+	-- 		intermediate <= (Y OR MAIN_BUS);
+	-- 	ELSIF F5 = "0110" THEN
+	-- 		intermediate <= (Y XOR MAIN_BUS);
+	-- 	ELSIF F5 = "0111" THEN
+	-- 		intermediate <= std_logic_vector(unsigned(Y) - 1);
+	-- 	ELSIF F5 = "1000" THEN
+	-- 		intermediate <= (OTHERS => '0');
+	-- 	ELSIF F5 = "1001" THEN
+	-- 		intermediate <= (NOT Y);
+	-- 	ELSIF F5 = "1010" THEN
+	-- 		intermediate <= std_logic_vector(shift_right(unsigned(Y), 1));
+	-- 	ELSIF F5 = "1011" THEN
+	-- 		intermediate <= std_logic_vector(rotate_right(unsigned(Y), 1));
+	-- 	ELSIF F5 = "1100" THEN
+	-- 		intermediate <= std_logic_vector(shift_right(signed(Y), 1));
+	-- 	ELSIF F5 = "1101" THEN
+	-- 		intermediate <= std_logic_vector(shift_left(unsigned(Y), 1));
+	-- 	ELSIF F5 = "1110" THEN
+	-- 		intermediate <= std_logic_vector(rotate_left(unsigned(Y), 1));
+	-- 	END IF;
 
-		
-		IF F5 = "0001" THEN
-			intermediate <= MAIN_BUS;
-		ELSIF F5 = "0010" THEN
-			result <= std_logic_vector(resize(signed(MAIN_BUS), 17) + resize(signed(Y), 17) + resize(signed(carry_in), 17));
-		ELSIF F5 = "0011" THEN
-			result <= std_logic_vector(resize(signed(MAIN_BUS), 17) - resize(signed(Y), 17) - resize(signed(carry_in), 17));
-		ELSIF F5 = "0100" THEN
-			intermediate <= (Y AND MAIN_BUS);
-		ELSIF F5 = "0101" THEN
-			intermediate <= (Y OR MAIN_BUS);
-		ELSIF F5 = "0110" THEN
-			intermediate <= (Y XOR MAIN_BUS);
-		ELSIF F5 = "0111" THEN
-			intermediate <= std_logic_vector(unsigned(Y) - 1);
-		ELSIF F5 = "1000" THEN
-			intermediate <= (OTHERS => '0');
-		ELSIF F5 = "1001" THEN
-			intermediate <= (NOT Y);
-		ELSIF F5 = "1010" THEN
-			intermediate <= std_logic_vector(shift_right(unsigned(Y), 1));
-		ELSIF F5 = "1011" THEN
-			intermediate <= std_logic_vector(rotate_right(unsigned(Y), 1));
-		ELSIF F5 = "1100" THEN
-			intermediate <= std_logic_vector(shift_right(signed(Y), 1));
-		ELSIF F5 = "1101" THEN
-			intermediate <= std_logic_vector(shift_left(unsigned(Y), 1));
-		ELSIF F5 = "1110" THEN
-			intermediate <= std_logic_vector(rotate_left(unsigned(Y), 1));
-		END IF;
+	-- END IF;
+	-- END PROCESS;
 
-	END IF;
-	END PROCESS;
+	-- OUTPUT <= result(15 DOWNTO 0) WHEN ((F5 = "0010") OR (F5 = "0011"))
+	-- ELSE intermediate;
 
-	OUTPUT <= result(15 DOWNTO 0) WHEN ((F5 = "0010") OR (F5 = "0011"))
-	ELSE intermediate;
+	-- ----------------------CHANGED-----------------------
+	result <= std_logic_vector(resize(signed(MAIN_BUS), 17) + resize(signed(Y), 17) + resize(signed(carry_in), 17)) WHEN F5 = "0010" ELSE
+						std_logic_vector(resize(signed(MAIN_BUS), 17) - resize(signed(Y), 17) - resize(signed(carry_in), 17)) WHEN F5 = "0011" ELSE
+						(OTHERS => 'Z');
+						
+	intermediate <= MAIN_BUS WHEN F5 = "0001" ELSE
+									(Y AND MAIN_BUS) WHEN F5 = "0100" ELSE
+									(Y OR MAIN_BUS) WHEN F5 = "0101" ELSE
+									(Y XOR MAIN_BUS) WHEN F5 = "0110" ELSE
+									std_logic_vector(unsigned(Y) - 1) WHEN F5 = "0111" ELSE
+									(OTHERS => '0') WHEN F5 = "1000" ELSE
+									(NOT Y) WHEN F5 = "1001" ELSE
+									std_logic_vector(shift_right(unsigned(Y), 1)) WHEN F5 = "1010" ELSE
+									std_logic_vector(rotate_right(unsigned(Y), 1)) WHEN F5 = "1011" ELSE
+									std_logic_vector(shift_right(signed(Y), 1)) WHEN F5 = "1100" ELSE
+									std_logic_vector(shift_left(unsigned(Y), 1)) WHEN F5 = "1101" ELSE
+									std_logic_vector(rotate_left(unsigned(Y), 1)) WHEN F5 = "1110" ELSE
+									(OTHERS => 'Z');
+
+	OUTPUT <= result(15 DOWNTO 0) WHEN F5 = "0010" OR F5 = "0011" ELSE
+						intermediate;
+	--------------------------------------------------
+
+
 
 	Zero_Flag <= '1' WHEN ((unsigned(result) = 0) AND ((F5 = "0010") OR (F5 = "0011")))
 	ELSE '1' WHEN (unsigned(intermediate) = 0)

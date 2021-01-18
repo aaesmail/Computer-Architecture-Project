@@ -21,11 +21,13 @@ BEGIN
 	PROCESS(clk) IS
 	BEGIN
 
-		IF rising_edge(clk) THEN
+		IF falling_edge(clk) THEN
 			IF we = '1' THEN
 				ram(to_integer(unsigned(address(10 DOWNTO 0)))) <= datain;
 			END IF;
 		END IF;
+
+
 
 	END PROCESS;
 

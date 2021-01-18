@@ -6,22 +6,17 @@ Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
 -- Compiling entity Decoder_2x4
 -- Compiling architecture myModel of Decoder_2x4
 
-} {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/controlClock.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/controlClock.vhd}
+} {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity Control_Clock
--- Compiling architecture arch_Control_Clock of Control_Clock
-
-} {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity pla
--- Compiling architecture a_pla of pla
+-- Compiling entity n_register
+-- Compiling architecture a_register of n_register
+-- Compiling entity n_register_rising
+-- Compiling architecture a_register_rising of n_register_rising
+-- Compiling entity n_register_reset_1
+-- Compiling architecture a_n_register_reset_1 of n_register_reset_1
 
 } {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SPR_ALU_RAM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SPR_ALU_RAM.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -31,13 +26,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity SPR_ALU_RAM
 -- Compiling architecture a_SPR_ALU_RAM of SPR_ALU_RAM
 
-} {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd}
+} {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/controlClock.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/controlClock.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity n_register
--- Compiling architecture a_register of n_register
+-- Compiling entity Control_Clock
+-- Compiling architecture arch_Control_Clock of Control_Clock
 
 } {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SpecialRegisterFile.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SpecialRegisterFile.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -179,6 +174,23 @@ Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
 -- Loading package NUMERIC_STD
 -- Compiling entity special_register_file
 -- Compiling architecture a_special_register_file of special_register_file
+
+} {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/cpu.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/cpu.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cpu
+-- Compiling architecture a_cpu of cpu
+
+} {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_4x16.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_4x16.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Decoder_4x16
+-- Compiling architecture myModel of Decoder_4x16
 
 } {} {}} {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/tristate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/tristate.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
