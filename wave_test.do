@@ -65,7 +65,7 @@ configure wave -timeline 0
 configure wave -timelineunits ps
 update
 WaveRestoreZoom {0 ps} {353 ps}
-mem load -i {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/test.mem} /cpu/spr_alu_ram_modules/u1/ram
+mem load -i {D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/out.mem} /cpu/spr_alu_ram_modules/u1/ram
 force -freeze sim:/cpu/start_signal 1 0
 force -freeze sim:/cpu/interrupt_bit 0 0
 force -freeze sim:/cpu/CLOCK 0 0, 1 {50 ps} -r 100

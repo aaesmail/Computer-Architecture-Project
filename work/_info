@@ -22,9 +22,9 @@ V?_IT_6JFT[2NNeK97KRA_3
 !s100 f;4LIF[gYXh=9^dIejPUh1
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1610949974
+Z8 !s110 1610984454
 !i10b 1
-Z9 !s108 1610949974.000000
+Z9 !s108 1610984454.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/instruction_decoder.vhd|
 Z11 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/instruction_decoder.vhd|
 !i113 1
@@ -50,7 +50,7 @@ R11
 R12
 R13
 Ecode_store_rom
-Z14 w1610851049
+Z14 w1610983419
 Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z16 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
 R2
@@ -64,11 +64,11 @@ V8Y[inW7F6C6:?6THTAdZa1
 !s100 ;<ZPRzH^1NG<ZAR9^8PI[0
 R7
 32
-R8
+Z19 !s110 1610984455
 !i10b 1
-R9
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/code_store_rom.vhd|
-Z20 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/code_store_rom.vhd|
+Z20 !s108 1610984455.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/code_store_rom.vhd|
+Z22 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/code_store_rom.vhd|
 !i113 1
 R12
 R13
@@ -80,34 +80,34 @@ R3
 DEx4 work 14 code_store_rom 0 22 8Y[inW7F6C6:?6THTAdZa1
 l542
 L23
-Vf`PTVm0:46lK9`HRdzkPM0
-!s100 Of`?42PjN^R_lE=0e^T621
+VPRm=W1IWe^PXei7h7hDQR3
+!s100 ;Ndn:Ole3f7U39JOJTkGb1
 R7
 32
-R8
-!i10b 1
-R9
 R19
+!i10b 1
 R20
+R21
+R22
 !i113 1
 R12
 R13
 Econtrol_clock
-Z21 w1610926021
+Z23 w1610926021
 R2
 R3
 R4
-Z22 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/controlClock.vhd
-Z23 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/controlClock.vhd
+Z24 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/controlClock.vhd
+Z25 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/controlClock.vhd
 l0
 L4
 VOoJb3ad]D]d3KSj1ZOJ4d3
 !s100 E;=hgF?O_ID15YY_@e20b0
 R7
 32
-Z24 !s110 1610949975
+R19
 !i10b 1
-Z25 !s108 1610949975.000000
+R20
 Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/controlClock.vhd|
 Z27 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/controlClock.vhd|
 !i113 1
@@ -123,9 +123,9 @@ Vc]4M>oYTHDoA5mkoUS6`01
 !s100 T@UbJknHC@amK9`gK]eB41
 R7
 32
-R24
+R19
 !i10b 1
-R25
+R20
 R26
 R27
 !i113 1
@@ -145,9 +145,9 @@ V;9QG<IR>Il9S_Y=4:N4gT3
 !s100 LUm:Xl@>_jNlgS93E]MmQ1
 R7
 32
-R24
+R19
 !i10b 1
-R25
+R20
 Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/cpu.vhd|
 Z32 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/cpu.vhd|
 !i113 1
@@ -164,9 +164,9 @@ Vi>9N;Mbi84>Y4FJnH[]mD0
 !s100 8YlH8fAUb6BZo^BB`_30R2
 R7
 32
-R24
+R19
 !i10b 1
-R25
+R20
 R31
 R32
 !i113 1
@@ -186,9 +186,9 @@ VGMg`V7b_lF0fTP=B][CgI2
 !s100 _O;6km0Ecn5^iD@j;R^I=1
 R7
 32
-R24
+R19
 !i10b 1
-R25
+R20
 Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/dFlipFlop.vhd|
 Z37 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/dFlipFlop.vhd|
 !i113 1
@@ -205,9 +205,9 @@ VJEDjY7K1Td6DfzHa?bg2D1
 !s100 [1G1IX4]j[3dS9?hdbkNH2
 R7
 32
-R24
+R19
 !i10b 1
-R25
+R20
 R36
 R37
 !i113 1
@@ -226,9 +226,9 @@ VNQZU9ICd]f<<G>:H3>Yic3
 !s100 H?[PIR]Z^9iazA>ofUm^53
 R7
 32
-Z41 !s110 1610949973
+Z41 !s110 1610984453
 !i10b 1
-Z42 !s108 1610949973.000000
+Z42 !s108 1610984453.000000
 Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_2x4.vhd|
 Z44 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_2x4.vhd|
 !i113 1
@@ -304,9 +304,9 @@ V2W@65DfYP[U0YIaFFicoQ1
 !s100 __doM;aZbI>AdziCZRalK3
 R7
 32
-Z52 !s110 1610949976
+Z52 !s110 1610984456
 !i10b 1
-Z53 !s108 1610949976.000000
+Z53 !s108 1610984456.000000
 Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_4x16.vhd|
 Z55 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/decoder_4x16.vhd|
 !i113 1
@@ -370,7 +370,7 @@ R62
 R12
 R13
 Egeneral_registers
-Z63 w1610940647
+Z63 w1610981678
 R2
 R3
 R4
@@ -394,10 +394,10 @@ Aa_general_registers
 R2
 R3
 DEx4 work 17 general_registers 0 22 8?J6[bB9IIk^GC?GYWQSI2
-l42
+l35
 L14
-VI2aFY_4S565M]OZ8_KmA23
-!s100 mn@XYh]RROl2D_Y:1goeU2
+VhRONVCPb_UzDX6Hf_>AiL0
+!s100 4LA9T_FjN@Uel=Keg9SoZ2
 R7
 32
 R52
@@ -489,7 +489,7 @@ R11
 R12
 R13
 En_alu
-Z68 w1610947023
+Z68 w1610980616
 R1
 R2
 R3
@@ -504,9 +504,9 @@ R7
 32
 R41
 !i10b 1
-Z71 !s108 1610949972.000000
-Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/ALU.vhd|
-Z73 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/ALU.vhd|
+R42
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/ALU.vhd|
+Z72 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/ALU.vhd|
 !i113 1
 R12
 R13
@@ -517,26 +517,26 @@ R3
 DEx4 work 5 n_alu 0 22 ;>b7XLg[nfc8@L7d1^[BM0
 l22
 L15
-V0@:9IbE>zBe^[ZVjDFbWc0
-!s100 acRJboc[>k7ZCRz^HiS<Y3
+V=X9o[EY3m4n18F14GUlaN0
+!s100 Q?cWW;^Z0[N7636i7fJ5]3
 R7
 32
 R41
 !i10b 1
+R42
 R71
 R72
-R73
 !i113 1
 R12
 R13
 En_ram
-Z74 w1610942088
+Z73 w1610942088
 R1
 R2
 R3
 R4
-Z75 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/memory.vhd
-Z76 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/memory.vhd
+Z74 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/memory.vhd
+Z75 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/memory.vhd
 l0
 L5
 Vk]U0]AF0iS_;bg]CRVaR:1
@@ -546,8 +546,8 @@ R7
 R41
 !i10b 1
 R42
-Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/memory.vhd|
-Z78 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/memory.vhd|
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/memory.vhd|
+Z77 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/memory.vhd|
 !i113 1
 R12
 R13
@@ -565,29 +565,29 @@ R7
 R41
 !i10b 1
 R42
+R76
 R77
-R78
 !i113 1
 R12
 R13
 En_register
-Z79 w1610940767
+R63
 R2
 R3
 R4
-Z80 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd
-Z81 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd
+Z78 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd
+Z79 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd
 l0
 L4
 V_Hod2Q3[Ze4ka>?9?0njR1
 !s100 MLQS?3DI9iOMgdS<0n<GY2
 R7
 32
-R41
+R8
 !i10b 1
-R42
-Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd|
-Z83 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd|
+R9
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd|
+Z81 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/register.vhd|
 !i113 1
 R12
 R13
@@ -601,32 +601,32 @@ VI@E<dTQEQzE_PnP1d2ePj2
 !s100 o8Ad5gk[kdm?Onol`]6jL0
 R7
 32
-R41
+R8
 !i10b 1
-R42
-R82
-R83
+R9
+R80
+R81
 !i113 1
 R12
 R13
 En_register_reset_1
-R79
+Z82 w1610940767
 R2
 R3
 R4
-R80
-R81
+R78
+R79
 l0
 L58
 VJfzHY5Q604K;`HbzUoLYS3
 !s100 QV[]BnVEMQWz;jE[al]FV2
 R7
 32
-R41
+Z83 !s110 1610949973
 !i10b 1
-R42
-R82
-R83
+Z84 !s108 1610949973.000000
+R80
+R81
 !i113 1
 R12
 R13
@@ -640,32 +640,32 @@ V1Jjf^BDAOnN<hQ;d:kDFi1
 !s100 oaTdSQN4bo15BnWaoS>MC3
 R7
 32
-R41
-!i10b 1
-R42
-R82
 R83
+!i10b 1
+R84
+R80
+R81
 !i113 1
 R12
 R13
 En_register_rising
-R79
+R63
 R2
 R3
 R4
-R80
-R81
+R78
+R79
 l0
 L31
 V[NO9MB5zFceNAo7ORS36:1
 !s100 :B`D5V4U_XUlKo4WNAhT]0
 R7
 32
-R41
+R8
 !i10b 1
-R42
-R82
-R83
+R9
+R80
+R81
 !i113 1
 R12
 R13
@@ -679,11 +679,11 @@ V^ElRR5P3M_8SbmFZ[]J;P3
 !s100 IR[Q[aXFjPhfg<om6oYFU0
 R7
 32
-R41
+R8
 !i10b 1
-R42
-R82
-R83
+R9
+R80
+R81
 !i113 1
 R12
 R13
@@ -692,8 +692,8 @@ R38
 R2
 R3
 R4
-Z84 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/tristate.vhd
-Z85 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/tristate.vhd
+Z85 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/tristate.vhd
+Z86 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/tristate.vhd
 l0
 L4
 VCRHE7PMO`bETeTR0AZUjV3
@@ -703,8 +703,8 @@ R7
 R8
 !i10b 1
 R9
-Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/tristate.vhd|
-Z87 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/tristate.vhd|
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/tristate.vhd|
+Z88 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/tristate.vhd|
 !i113 1
 R12
 R13
@@ -721,30 +721,30 @@ R7
 R8
 !i10b 1
 R9
-R86
 R87
+R88
 !i113 1
 R12
 R13
 Epla
-Z88 w1610949932
+Z89 w1610949932
 R1
 R2
 R3
 R4
-Z89 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd
-Z90 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd
+Z90 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd
+Z91 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd
 l0
 L5
 V;o1zce_9zFJbSW78l`>BC0
 !s100 S<QLMNJ7KIncVac>aSLUh2
 R7
 32
-R8
+R19
 !i10b 1
-R9
-Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd|
-Z92 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd|
+R20
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd|
+Z93 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/pla.vhd|
 !i113 1
 R12
 R13
@@ -759,33 +759,33 @@ VjUEROadPKZQBEI@7i1JkZ1
 !s100 Bd1hIS9;2KAkoo<R1WB<`0
 R7
 32
-R8
+R19
 !i10b 1
-R9
-R91
+R20
 R92
+R93
 !i113 1
 R12
 R13
 Eright_side
-Z93 w1610921981
+Z94 w1610921981
 R1
 R2
 R3
 R4
-Z94 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/RightSide.vhd
-Z95 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/RightSide.vhd
+Z95 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/RightSide.vhd
+Z96 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/RightSide.vhd
 l0
 L5
 V2h__ZM;eAD0mKo]aJ`?Al2
 !s100 k^DG`hV?_CX_PTUdP_I@G2
 R7
 32
-R24
+R52
 !i10b 1
-R25
-Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/RightSide.vhd|
-Z97 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/RightSide.vhd|
+R20
+Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/RightSide.vhd|
+Z98 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/RightSide.vhd|
 !i113 1
 R12
 R13
@@ -800,11 +800,11 @@ VEOe2]f^ePm?HVb;=Z9dh^3
 !s100 CN0ka:T?X7da?gAM47BC<2
 R7
 32
-R24
+R52
 !i10b 1
-R25
-R96
+R20
 R97
+R98
 !i113 1
 R12
 R13
@@ -813,8 +813,8 @@ R38
 R2
 R3
 R4
-Z98 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/sourceDecoder.vhd
-Z99 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/sourceDecoder.vhd
+Z99 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/sourceDecoder.vhd
+Z100 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/sourceDecoder.vhd
 l0
 L4
 V93@:PmnM7`>44fPnFeZNh0
@@ -824,8 +824,8 @@ R7
 R52
 !i10b 1
 R53
-Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/sourceDecoder.vhd|
-Z101 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/sourceDecoder.vhd|
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/sourceDecoder.vhd|
+Z102 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/sourceDecoder.vhd|
 !i113 1
 R12
 R13
@@ -842,19 +842,19 @@ R7
 R52
 !i10b 1
 R53
-R100
 R101
+R102
 !i113 1
 R12
 R13
 Especial_register_file
-Z102 w1610942126
+Z103 w1610942126
 R1
 R2
 R3
 R4
-Z103 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SpecialRegisterFile.vhd
-Z104 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SpecialRegisterFile.vhd
+Z104 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SpecialRegisterFile.vhd
+Z105 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SpecialRegisterFile.vhd
 l0
 L5
 VCo;2fo:Dk_0?CGkII8c5E2
@@ -863,9 +863,9 @@ R7
 32
 R8
 !i10b 1
-R42
-Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SpecialRegisterFile.vhd|
-Z106 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SpecialRegisterFile.vhd|
+R9
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SpecialRegisterFile.vhd|
+Z107 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SpecialRegisterFile.vhd|
 !i113 1
 R12
 R13
@@ -882,19 +882,19 @@ R7
 32
 R8
 !i10b 1
-R42
-R105
+R9
 R106
+R107
 !i113 1
 R12
 R13
 Espr_alu_ram
-Z107 w1610936962
+Z108 w1610936962
 R2
 R3
 R4
-Z108 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SPR_ALU_RAM.vhd
-Z109 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SPR_ALU_RAM.vhd
+Z109 8D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SPR_ALU_RAM.vhd
+Z110 FD:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SPR_ALU_RAM.vhd
 l0
 L4
 V3=ZZTgzSAhoz>9nF38fJJ3
@@ -904,8 +904,8 @@ R7
 R8
 !i10b 1
 R9
-Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SPR_ALU_RAM.vhd|
-Z111 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SPR_ALU_RAM.vhd|
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SPR_ALU_RAM.vhd|
+Z112 !s107 D:/CollegeSyllabus/4ThirdYearSyllabus/First-semester/Computer Architecture/Project/integration/Computer-Architecture-Project/SPR_ALU_RAM.vhd|
 !i113 1
 R12
 R13
@@ -922,8 +922,8 @@ R7
 R8
 !i10b 1
 R9
-R110
 R111
+R112
 !i113 1
 R12
 R13

@@ -82,6 +82,7 @@ BEGIN
 									std_logic_vector(shift_right(signed(Y), 1)) WHEN F5 = "1100" ELSE
 									std_logic_vector(shift_left(unsigned(Y), 1)) WHEN F5 = "1101" ELSE
 									std_logic_vector(rotate_left(unsigned(Y), 1)) WHEN F5 = "1110" ELSE
+									(OTHERS=>'1') WHEN F5 = "1111" ELSE
 									(OTHERS => 'Z');
 
 	OUTPUT <= result(15 DOWNTO 0) WHEN F5 = "0010" OR F5 = "0011" ELSE
