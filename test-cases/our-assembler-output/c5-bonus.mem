@@ -1,7 +1,6 @@
 // memory data file (do not edit the following line - required for mem load use)
 // instance=/cpu/spr_alu_ram_modules/u1/ram
 // format=mti addressradix=d dataradix=b version=1.0 wordsperline=1 noaddress
-1111000000000000
 1000010111000110
 0000000001100100
 1000010111000010
